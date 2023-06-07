@@ -1,0 +1,55 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(110, 113, 244);
+}
+
+.main-heading {
+    font-size: 40px;
+}
+
+.button {
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sub-heading {
+    font-size: 30px;
+}
+
+.para-main {
+    font-size: 20px;
+    font-weight: 400;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sub-select-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.select {
+    width: 300px;
+}
+
+.select-container {
+    display: flex;
+    padding: 10px;
+}
